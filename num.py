@@ -1,22 +1,8 @@
 # coding: utf-8
-#########################################################################
-# 网站: <a href="http://www.crazyit.org">疯狂Java联盟</a>               #
-# author yeeku.H.lee kongyeeku@163.com                                  #
-#                                                                       #
-# version 1.0                                                           #
-#                                                                       #
-# Copyright (C), 2001-2018, yeeku.H.Lee                                 #
-#                                                                       #
-# This program is protected by copyright laws.                          #
-#                                                                       #
-# Program Name:                                                         #
-#                                                                       #
-# <br>Date:                                                             #
-#########################################################################
 '''
   把一个浮点数分解成整数部分和小数部分字符串
   num 需要被分解的浮点数
-  返回分解出来的整数部分和小数部分。
+  返回分解出来的整数部分和小数部
   第一个数组元素是整数部分，第二个数组元素是小数部分
 '''
 def divide(num):
@@ -100,7 +86,7 @@ def integer_to_str(num_str):
 num = float(input("请输入一个浮点数: "))
 # 测试把一个浮点数分解成整数部分和小数部分
 integer, fraction = divide(num)
-# 测试把一个四位的数字字符串变成汉字字符串
+#添加小数位匹配
 def newfraction(new):
     new_list = ["零" , "壹" , "贰" , "叁" , "肆" ,\
         "伍" , "陆" , "柒" , "捌" , "玖"]
